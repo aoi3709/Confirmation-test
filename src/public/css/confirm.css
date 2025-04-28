@@ -1,0 +1,154 @@
+body {
+    font-family: '游明朝', 'Yu Mincho', 'Hiragino Mincho ProN', 'serif';
+    color: #333;
+    background-color: #fff;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 20px 15px;
+    box-sizing: border-box;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 0px 15px;
+    max-width: 1230px;
+}
+
+.header__logo {
+    color: #553322;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.confirm__content {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+}
+
+.confirm__heading {
+    color: #553322;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.form {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.confirm-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.confirm-table__inner {
+    width: 100%;
+}
+
+.confirm-table__row {
+    border-bottom: 1px solid #eee;
+}
+
+.confirm-table__row:last-child {
+    border-bottom: none;
+}
+
+.confirm-table__header {
+    padding: 15px;
+    width: 30%;
+    text-align: left;
+    font-weight: bold;
+    color: #553322;
+    background-color: #fff;
+    border-right: 1px solid #eee;
+}
+
+.confirm-table__text {
+    padding: 15px;
+    width: 70%;
+    text-align: left;
+    color: #553322;
+}
+
+.confirm-table__text input {
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: #fff;
+    color: #553322;
+    padding: 8px 0;
+    font-size: 1em;
+}
+
+.confirm-table__row:last-child .confirm-table__header,
+.confirm-table__row:last-child .confirm-table__text {
+    border-bottom-width: 0;
+}
+
+.form__button {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.form__button-submit,
+.form__button-edit {
+    padding: 12px 24px;
+    border-radius: 4px;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 10px;
+    min-width: 100px;
+    box-sizing: border-box;
+}
+
+.form__button-submit {
+    background-color: #553322;
+    border: 1px solid #553322;
+    color: #fff;
+}
+
+.form__button-submit:hover {
+    background-color: #333;
+    border-color: #333;
+}
+
+.form__button-edit {
+    background-color: #eee;
+    border: 1px solid #ccc;
+    color: #553322;
+}
+
+.form__button-edit:hover {
+    background-color: #ddd;
+    border-color: #bbb;
+    color: #333;
+}

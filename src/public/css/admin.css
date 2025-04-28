@@ -1,0 +1,213 @@
+body {
+    font-family: '游明朝', 'Yu Mincho', 'Hiragino Mincho ProN', 'serif';
+    color: #333;
+    background-color: #fff;
+    line-height: 1.6;
+    margin: 0;
+    padding-bottom: 40px;
+}
+
+.header {
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 20px 15px;
+}
+
+.header__inner {
+    max-width: 1230px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.header__logo {
+    color: #553322;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.admin__content {
+    margin: 40px auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.admin__heading {
+    color: #553322;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.search-form {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    align-items: center;
+}
+
+.search-form>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.search-form label {
+    color: #553322;
+    font-size: 0.9em;
+    margin-bottom: 5px;
+}
+
+.search-form input[type="text"],
+.search-form input[type="email"],
+.search-form input[type="date"],
+.search-form select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1em;
+    appearance: none;
+}
+
+.search-form select {
+    height: 40px;
+}
+
+.search-form input[type="radio"] {
+    margin-right: 5px;
+}
+
+.search-form__group {
+    display: flex;
+    flex-direction: column;
+}
+
+.search-form__button {
+    padding: 10px 15px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    background-color: #eee;
+    color: #553322;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.search-form__button:hover {
+    background-color: #ddd;
+}
+
+.search-results {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.search-results th,
+.search-results td {
+    border: 1px solid #ddd;
+    padding: 12px 15px;
+    text-align: left;
+}
+
+.search-results th {
+    background-color: #f8f8f8;
+    font-weight: bold;
+    color: #553322;
+}
+
+.search-results tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.search-results tbody tr:hover {
+    background-color: #f0f0f0;
+}
+
+.search-results th:first-child,
+.search-results td:first-child {
+    padding-left: 20px;
+}
+
+.search-results th:last-child,
+.search-results td:last-child {
+    padding-right: 20px;
+    text-align: center;
+}
+
+.search-results tbody td button {
+    padding: 8px 12px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    background-color: #eee;
+    color: #553322;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: background-color 0.3s ease;
+}
+
+.search-results tbody td button:hover {
+    background-color: #ddd;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination a,
+.pagination span {
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 0 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #553322;
+    font-size: 0.9em;
+}
+
+.pagination a:hover {
+    background-color: #f0f0f0;
+}
+
+.pagination .active {
+    background-color: #553322;
+    color: #fff;
+    border-color: #553322;
+}
+
+.button-group {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.button-group button {
+    padding: 10px 15px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    background-color: #eee;
+    color: #553322;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.button-group button:hover {
+    background-color: #ddd;
+}

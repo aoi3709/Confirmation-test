@@ -62,3 +62,25 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+# アプリケーション名
+Confirmation-test
+
+## 環境構築
+- Dockerのビルドからマイグレーション、シーディングまでを記述する
+Ubuntu上で入れたコマンドをすべて記載するということなのか？分からない。
+
+## 使用技術(実行環境)
+- 例) Laravel 8.x(言語やフレームワーク、バージョンなどが記載されていると良い)
+"php": "^7.3|^8.0",
+DB_CONNECTION=mysql
+
+
+
+## ER図
+Confirmation-test/drawio_mermaid_plugin/testのtest.drawioに「Confirmation-test」シートに記載あり。
+「対応リスト」シートは、簡単に今回のテストの対応したことをまとめたものになります。
+
+## URL
+- 例) 開発環境：http://localhost/
+開発環境：http://localhost

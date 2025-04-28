@@ -1,0 +1,93 @@
+body {
+    font-family: '游明朝', 'Yu Mincho', 'Hiragino Mincho ProN', 'serif';
+    color: #553322;
+    background-color: #fff;
+    line-height: 1.6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+.header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 20px 15px;
+    box-sizing: border-box;
+}
+
+.header__inner {
+    margin: 0 auto;
+    padding: 0px 15px;
+    max-width: 1230px;
+}
+
+.header__logo {
+    color: #553322;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.thanks__content {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    padding: 60px 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.thanks__heading {
+    color: #553322;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.thanks__button {
+    margin-top: 30px;
+}
+
+.button {
+    display: inline-block;
+    padding: 12px 30px;
+    border-radius: 4px;
+    font-size: 1.1em;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    min-width: 120px;
+    box-sizing: border-box;
+}
+
+.button--home {
+    background-color: #553322;
+    color: #fff;
+    border: 1px solid #553322;
+}
+
+.button--home:hover {
+    background-color: #553322;
+    border-color: #553322;
+}
+
+body::before {
+    content: "Thank you";
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-15deg);
+    font-size: 12em;
+    font-weight: bold;
+    color: #f0f0f0;
+    z-index: -1;
+    opacity: 0.7;
+}
